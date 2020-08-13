@@ -8,6 +8,7 @@ walksp = 4;	//Walk Speed
 
 state = PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();
+Pelement = 0;
 
 globalvar leftOrb;
 globalvar rightOrb;

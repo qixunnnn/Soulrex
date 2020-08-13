@@ -8,8 +8,8 @@ if(leftOrb != 0)
 	switch(leftOrb)
 	{
 		case 1: sprite_index = sDarkOrb;break
-		case 2: sprite_index = sLightOrb;break
-		case 3: sprite_index = sMagicOrb;break
+		case 3: sprite_index = sLightOrb;break
+		case 7: sprite_index = sMagicOrb;break
 	}
 	
 }

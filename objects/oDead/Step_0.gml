@@ -1,9 +1,9 @@
-sprite_index = sEnemyD;
+sprite_index = sSlimeD;
 image_speed = 1;
 
 if(animation_end())
 {
-	image_index = 31;
+	image_index = 5;
 	instance_destroy();	
 }
 

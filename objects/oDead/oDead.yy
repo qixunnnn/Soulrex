@@ -25,7 +25,7 @@
             "m_owner": "474e4613-b401-4117-b016-1c681deb48fa"
         }
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "maskSpriteId": "a0f890df-fcda-482d-8ff4-111935cc0b2e",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8a798648-e7da-482f-8931-64d475f7dd43",
+    "spriteId": "a0f890df-fcda-482d-8ff4-111935cc0b2e",
     "visible": true
 }

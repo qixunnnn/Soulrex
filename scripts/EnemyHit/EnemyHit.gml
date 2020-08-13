@@ -1,4 +1,9 @@
 var _damage = argument0;
+var Pelement  = argument1;
+if(Pelement != element)
+{
+	_damage = 0;
+}
 if (!mercy)
 {
 	hp -= _damage;

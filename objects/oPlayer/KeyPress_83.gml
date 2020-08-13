@@ -1,4 +1,4 @@
 //light orb pressed
 
 rightOrb = leftOrb;
-leftOrb = 2	;
+leftOrb = 3	;

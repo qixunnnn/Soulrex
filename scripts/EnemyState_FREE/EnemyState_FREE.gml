@@ -16,6 +16,13 @@ if(place_meeting(x+hsp,y,oWall))
     }
     hsp = -hsp;
 }
+//if(!place_meeting(x+hspd,y+1,par_solid))
+//{
+	// hsp = -hsp;
+//}
+
+	
+
 
 x += hsp;
 
@@ -34,8 +41,9 @@ y += vsp;
 //Animation
 if(!place_meeting(x,y+1,oWall))
 {
-    sprite_index = sEnemyJ;
-    image_speed = 1;
+    sprite_index = sSlimeR;
+    image_speed = 0;
+	image_index = 1;
    
 }
 else
@@ -43,11 +51,11 @@ else
     image_speed = 1;
     if(hsp == 0)
     {
-        sprite_index = sEnemy;
+        sprite_index = sSlime;
     }
     else
     {
-        sprite_index = sEnemyR;
+        sprite_index = sSlimeR;
     }
 }
 

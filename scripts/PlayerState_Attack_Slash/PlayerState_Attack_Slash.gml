@@ -24,7 +24,8 @@ if(hits > 0)
 			ds_list_add(hitByAttackNow,hitID);
 			with(hitID)
 			{
-				EnemyHit(1);	
+				Pelement = real(leftOrb) + real(rightOrb);
+				EnemyHit(1,Pelement);	
 			}
 		}
 	}
