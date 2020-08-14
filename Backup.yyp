@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1a8bc6db-78a2-4205-8078-9cc16af1af84",
+            "Value": {
+                "id": "d3972c99-c60d-4ced-9d92-ffdcde15f27f",
+                "resourcePath": "objects\\oOrbSign\\oOrbSign.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ac0f434-6b4d-41f2-9db8-a73b7be862f4",
             "Value": {
                 "id": "92c03d39-6311-4b13-983a-dce51ad53946",
@@ -84,6 +92,14 @@
                 "id": "4a64823c-ad3c-4d06-bab6-e38a09443edd",
                 "resourcePath": "sprites\/sPlayerZ\/sPlayerZ.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1db7fa39-7198-42f5-9a28-003b3c7a30aa",
+            "Value": {
+                "id": "a2515ff3-6f50-444f-97b9-193453586a88",
+                "resourcePath": "scripts\\DrawSetText\\DrawSetText.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -223,6 +239,22 @@
             }
         },
         {
+            "Key": "61ab5742-133d-4257-a2c6-b400f4c754c2",
+            "Value": {
+                "id": "36f51675-4bc5-4693-9863-d518cc5886a9",
+                "resourcePath": "sounds\\snNoDamage\\snNoDamage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "62480d23-ecb3-4c6e-881e-1e660cdb5d24",
+            "Value": {
+                "id": "3a2ed70b-02a8-42a3-9f70-8e55b388c938",
+                "resourcePath": "sounds\\snEnemyD\\snEnemyD.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "633312a8-e160-45c9-8c08-1ca12234a7d0",
             "Value": {
                 "id": "e3c94bf1-e84d-4be8-9b3e-3e2d4fea9dfe",
@@ -343,6 +375,14 @@
             }
         },
         {
+            "Key": "82bcbfdd-4e9f-4a0b-a759-5ceea0f7f43e",
+            "Value": {
+                "id": "6e08c5cc-663f-44c7-959a-0299d5fd4d80",
+                "resourcePath": "fonts\\fSign\\fSign.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "82fddff9-371d-49a2-8f73-d1dad6554cf4",
             "Value": {
                 "id": "f32578a7-f080-4778-9a3f-ba1b27362069",
@@ -388,6 +428,14 @@
                 "id": "9a39aca7-3e91-4267-8dfe-5f2db82e66e3",
                 "resourcePath": "objects\/oRightOrb\/oRightOrb.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8fff1d9a-afb9-46e7-90bb-b1108bc1fe7e",
+            "Value": {
+                "id": "1138def8-bb8a-482c-8ee7-aebab40faebd",
+                "resourcePath": "sounds\\snPlayerD\\snPlayerD.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -583,6 +631,22 @@
             }
         },
         {
+            "Key": "cb474cef-1fd6-4621-bd43-9c4fa01ccf9c",
+            "Value": {
+                "id": "4f9c3ddc-b34a-4c67-85fb-333d3f403f0a",
+                "resourcePath": "objects\\oText\\oText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cc9692c5-c96a-4518-97a2-fda33a63a047",
+            "Value": {
+                "id": "b1ec36c1-6669-4939-9df6-3bbe26c636f0",
+                "resourcePath": "sprites\\sMarker\\sMarker.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "6b9fc37e-4f30-4709-9498-96ba83091937",
@@ -687,6 +751,14 @@
             }
         },
         {
+            "Key": "e649e630-40b3-489d-b622-5dded70200e6",
+            "Value": {
+                "id": "ac959ea0-3576-4d61-ba3d-4e81196a7bd2",
+                "resourcePath": "rooms\\roomTut\\roomTut.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "ed37f257-d381-428a-911c-8688d70f46c0",
             "Value": {
                 "id": "7854e2b5-6a16-4baf-8a83-8b755d259a0e",
@@ -729,7 +801,8 @@
         "3999072f-ca01-4610-a670-fdcfe86b5f7e",
         "9a0e215c-c45d-4dff-96c0-d4d995f5b40a",
         "bb4fc6d0-4a5a-4052-8528-522cdaea2250",
-        "228e2bcf-dcc4-4304-be17-987d55fd9ed8"
+        "228e2bcf-dcc4-4304-be17-987d55fd9ed8",
+        "1db7fa39-7198-42f5-9a28-003b3c7a30aa"
     ],
     "tutorial": ""
 }

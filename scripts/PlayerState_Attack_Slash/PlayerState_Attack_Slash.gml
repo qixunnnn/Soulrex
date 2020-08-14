@@ -9,9 +9,10 @@ if(sprite_index != sPlayerZ)
 	ds_list_clear(hitByAttack);
 	
 	audio_sound_pitch(snAttack,choose(0.8,1.0,1.2));
-	audio_play_sound(snAttack,5,false);
+	audio_play_sound(snAttack,1,false);
 	
 }
+
 //use attack hitbox & check for hits
 mask_index = sPlayerZ_HB
 var hitByAttackNow = ds_list_create();

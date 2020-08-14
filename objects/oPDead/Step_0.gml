@@ -5,7 +5,16 @@ if(done == 0)
 {
 	sprite_index = sPlayerD;
 	image_speed = 1;
+	if(floor(image_index) == 7)
+	{
+		audio_play_sound(snPlayerD,10,false);
+		ScreenShake(30);
+		image_index = 8;
+	}
 }
+
+
+
 if(animation_end())
 {
 	image_speed = 0;
