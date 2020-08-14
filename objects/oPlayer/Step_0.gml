@@ -23,5 +23,5 @@ switch(state)
 {
 	case PLAYERSTATE.FREE: PlayerState_Free();break
 	case PLAYERSTATE.ATTACK_SLASH: PlayerState_Attack_Slash();break
-	case PLAYERSTATE.ATTACK_SHOOT: PlayerState_Attack_Shoot();break
+	case PLAYERSTATE.KB: PlayerState_Attack_KnockBack();break
 }

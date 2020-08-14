@@ -2,18 +2,24 @@ hsp = 0;
 vsp = 0;
 
 //Start of the attack
-if(sprite_index != sPlayerZ)
+if(sprite_index != sPlayerC)
 {
-	sprite_index = sPlayerZ;
+	sprite_index = sPlayerC;
 	image_index = 0; 
+	image_speed = 1.8;
 	ds_list_clear(hitByAttack);
 	
-	audio_sound_pitch(snAttack,choose(0.8,1.0,1.2));
-	audio_play_sound(snAttack,5,false);
+	
 	
 }
+if(floor(image_index) == 9)
+{
+	audio_sound_pitch(snAttack,choose(0.8,1.0,1.2));
+	audio_play_sound(snAttack,5,false);
+	image_index = 10;
+}
 //use attack hitbox & check for hits
-mask_index = sPlayerZ_HB
+mask_index = sPlayerC_HB
 var hitByAttackNow = ds_list_create();
 var hits = instance_place_list(x,y,oEnemy,hitByAttackNow,false);
 if(hits > 0)
@@ -28,7 +34,7 @@ if(hits > 0)
 			with(hitID)
 			{
 				Pelement = real(leftOrb) + real(rightOrb);
-				EnemyHit(1,Pelement,"Z");	
+				EnemyHit(1,Pelement,"C");	
 			}
 		}
 	}
@@ -41,3 +47,19 @@ if(animation_end())
 	sprite_index = sPlayer;
 	state = PLAYERSTATE.FREE;
 }
+
+/*
+if(floor(image_index) == 9)
+{
+	C_HB = instance_create_layer(x, y,"SkillsHB",oPlayerC_HB);
+	with(C_HB){
+		
+		owner = other.id;
+		image_xscale = owner.image_xscale;
+		alarm[0] = 4;
+		image_index = 10;
+	
+	}
+}
+
+*/

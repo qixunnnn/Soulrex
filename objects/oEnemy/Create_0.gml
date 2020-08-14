@@ -11,6 +11,7 @@ hp = 3;
 flash = 0;
 mercy=false;
 mercy_timer=0;
+hitfrom = 0;
 
 
 
