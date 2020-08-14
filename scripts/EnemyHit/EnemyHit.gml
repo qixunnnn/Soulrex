@@ -6,6 +6,7 @@ if(Pelement != element)
 }
 if (!mercy)
 {
+
 	ScreenShake(2);
 	hp -= _damage;
 	mercy = true;

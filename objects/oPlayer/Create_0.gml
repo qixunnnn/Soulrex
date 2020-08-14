@@ -5,6 +5,7 @@ vsp = 0;	//Vertical Speped
 hsp = 0;	//Horizontal speed
 grv = 0.3;	//Gravity
 walksp = 4;	//Walk Speed
+hascontrol = true;
 
 state = PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();

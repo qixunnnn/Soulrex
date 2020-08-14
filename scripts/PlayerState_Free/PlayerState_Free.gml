@@ -45,6 +45,7 @@ if(!place_meeting(x,y+1,oWall))
 }
 else
 {
+	if(sprite_index == sPlayerJ) audio_play_sound(snLand,4,false)
     image_speed = 1;
     if(hsp == 0)
     {

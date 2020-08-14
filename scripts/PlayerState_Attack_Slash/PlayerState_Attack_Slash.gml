@@ -8,6 +8,9 @@ if(sprite_index != sPlayerZ)
 	image_index = 0; 
 	ds_list_clear(hitByAttack);
 	
+	audio_sound_pitch(snAttack,choose(0.8,1.0,1.2));
+	audio_play_sound(snAttack,5,false);
+	
 }
 //use attack hitbox & check for hits
 mask_index = sPlayerZ_HB
