@@ -5,6 +5,7 @@ key_right = keyboard_check(vk_right); // 1 or 0
 key_left = keyboard_check(vk_left);
 key_jump = keyboard_check(vk_up)|| keyboard_check(vk_space);
 key_Attack = keyboard_check(ord("Z"));
+key_CAttack = keyboard_check(ord("C"));
 
 
 switch(state)

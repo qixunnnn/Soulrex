@@ -61,4 +61,5 @@ if(hsp != 0){
 }
 
 if (key_Attack) state = PLAYERSTATE.ATTACK_SLASH;
+if (key_CAttack) state = PLAYERSTATE.ATTACK_SHOOT;
 
