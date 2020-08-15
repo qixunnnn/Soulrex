@@ -74,7 +74,7 @@
             "Key": "1a8bc6db-78a2-4205-8078-9cc16af1af84",
             "Value": {
                 "id": "d3972c99-c60d-4ced-9d92-ffdcde15f27f",
-                "resourcePath": "objects\\oOrbSign\\oOrbSign.yy",
+                "resourcePath": "objects\/oOrbSign\/oOrbSign.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -98,7 +98,7 @@
             "Key": "1db7fa39-7198-42f5-9a28-003b3c7a30aa",
             "Value": {
                 "id": "a2515ff3-6f50-444f-97b9-193453586a88",
-                "resourcePath": "scripts\\DrawSetText\\DrawSetText.yy",
+                "resourcePath": "scripts\/DrawSetText\/DrawSetText.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -147,6 +147,14 @@
             "Value": {
                 "id": "8e74953f-57cd-406a-a5b2-e3678bb63cf7",
                 "resourcePath": "sprites\/sNinjaR\/sNinjaR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32a6d492-7edc-4d57-b082-de3d01b0b6e2",
+            "Value": {
+                "id": "d5b5f696-354c-4e3a-b7d5-99805c34d3e4",
+                "resourcePath": "sprites\/sEnergyBar\/sEnergyBar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -239,10 +247,18 @@
             }
         },
         {
+            "Key": "59a5c1ca-8d20-42ec-a682-7f30b90c77c1",
+            "Value": {
+                "id": "40814a2a-7063-4529-8997-0e275f45538c",
+                "resourcePath": "objects\/oStatus\/oStatus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "61ab5742-133d-4257-a2c6-b400f4c754c2",
             "Value": {
                 "id": "36f51675-4bc5-4693-9863-d518cc5886a9",
-                "resourcePath": "sounds\\snNoDamage\\snNoDamage.yy",
+                "resourcePath": "sounds\/snNoDamage\/snNoDamage.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -250,7 +266,7 @@
             "Key": "62480d23-ecb3-4c6e-881e-1e660cdb5d24",
             "Value": {
                 "id": "3a2ed70b-02a8-42a3-9f70-8e55b388c938",
-                "resourcePath": "sounds\\snEnemyD\\snEnemyD.yy",
+                "resourcePath": "sounds\/snEnemyD\/snEnemyD.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -335,6 +351,14 @@
             }
         },
         {
+            "Key": "6fda76be-5579-4a74-98ec-9a8f61eb7c87",
+            "Value": {
+                "id": "fee4433f-13cc-4b48-b152-34cab67cf81f",
+                "resourcePath": "sprites\/sBarGlass\/sBarGlass.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "72337db9-f820-4227-94dd-caf7479d1e7e",
             "Value": {
                 "id": "edf7f244-f493-4538-a4b0-ab0024da1055",
@@ -378,7 +402,7 @@
             "Key": "82bcbfdd-4e9f-4a0b-a759-5ceea0f7f43e",
             "Value": {
                 "id": "6e08c5cc-663f-44c7-959a-0299d5fd4d80",
-                "resourcePath": "fonts\\fSign\\fSign.yy",
+                "resourcePath": "fonts\/fSign\/fSign.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -387,6 +411,14 @@
             "Value": {
                 "id": "f32578a7-f080-4778-9a3f-ba1b27362069",
                 "resourcePath": "sprites\/sNinja\/sNinja.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "856dc902-45ba-4cf3-9f61-5e8e5d7d5038",
+            "Value": {
+                "id": "bbea0681-46af-4b5c-94b8-9d4307386f60",
+                "resourcePath": "sprites\/sBarBorder\/sBarBorder.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -434,7 +466,7 @@
             "Key": "8fff1d9a-afb9-46e7-90bb-b1108bc1fe7e",
             "Value": {
                 "id": "1138def8-bb8a-482c-8ee7-aebab40faebd",
-                "resourcePath": "sounds\\snPlayerD\\snPlayerD.yy",
+                "resourcePath": "sounds\/snPlayerD\/snPlayerD.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -623,6 +655,14 @@
             }
         },
         {
+            "Key": "c3ee8340-63b3-4314-8836-366b8b1e04b2",
+            "Value": {
+                "id": "5758e33c-a7fd-43b6-ad76-d6309afa9b84",
+                "resourcePath": "sprites\/sHealthBar\/sHealthBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c98de07a-aa46-4541-aa02-d298311fdc49",
             "Value": {
                 "id": "726568d6-cabe-4b6c-b9c7-0054490dc0e4",
@@ -634,7 +674,7 @@
             "Key": "cb474cef-1fd6-4621-bd43-9c4fa01ccf9c",
             "Value": {
                 "id": "4f9c3ddc-b34a-4c67-85fb-333d3f403f0a",
-                "resourcePath": "objects\\oText\\oText.yy",
+                "resourcePath": "objects\/oText\/oText.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -642,7 +682,7 @@
             "Key": "cc9692c5-c96a-4518-97a2-fda33a63a047",
             "Value": {
                 "id": "b1ec36c1-6669-4939-9df6-3bbe26c636f0",
-                "resourcePath": "sprites\\sMarker\\sMarker.yy",
+                "resourcePath": "sprites\/sMarker\/sMarker.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -652,6 +692,14 @@
                 "id": "6b9fc37e-4f30-4709-9498-96ba83091937",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd422a0b-7ef2-4806-aff7-46d146169887",
+            "Value": {
+                "id": "363ff2df-14bf-4bb2-9b9d-3994b36d58f2",
+                "resourcePath": "sprites\/sBoss\/sBoss.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -754,7 +802,7 @@
             "Key": "e649e630-40b3-489d-b622-5dded70200e6",
             "Value": {
                 "id": "ac959ea0-3576-4d61-ba3d-4e81196a7bd2",
-                "resourcePath": "rooms\\roomTut\\roomTut.yy",
+                "resourcePath": "rooms\/roomTut\/roomTut.yy",
                 "resourceType": "GMRoom"
             }
         },

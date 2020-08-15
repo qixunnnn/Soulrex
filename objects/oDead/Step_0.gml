@@ -1,7 +1,10 @@
 sprite_index = sSlimeD;
 image_speed = 1;
-
-audio_play_sound(snEnemyD,1,false);
+if(floor(image_index) == 0)
+{
+	audio_play_sound(snEnemyD,1,false);
+	image_index = 1;
+}
 
 if(animation_end())
 {
