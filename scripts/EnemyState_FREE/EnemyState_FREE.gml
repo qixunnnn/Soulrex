@@ -8,9 +8,9 @@ vsp += grv;
 
 
 //Horizontal Movement
-if(place_meeting(x+hsp,y,oWall))
+if(place_meeting(x+hsp,y,oEnemyWall))
 {
-    while(!place_meeting(x+sign(hsp),y,oWall))
+    while(!place_meeting(x+sign(hsp),y,oEnemyWall))
     {
         x+= sign(hsp);
     }
@@ -27,9 +27,9 @@ if(place_meeting(x+hsp,y,oWall))
 x += hsp;
 
 //Vertical Movement
-if(place_meeting(x,y+vsp,oWall))
+if(place_meeting(x,y+vsp,oEnemyWall))
 {
-    while(!place_meeting(x,y+sign(vsp),oWall))
+    while(!place_meeting(x,y+sign(vsp),oEnemyWall))
     {
         y+= sign(vsp);
     }
@@ -39,7 +39,7 @@ if(place_meeting(x,y+vsp,oWall))
 y += vsp;
 
 //Animation
-if(!place_meeting(x,y+1,oWall))
+if(!place_meeting(x,y+1,oEnemyWall))
 {
     sprite_index = sSlimeR;
     image_speed = 0;

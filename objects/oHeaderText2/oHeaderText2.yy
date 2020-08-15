@@ -1,28 +1,38 @@
 {
-    "id": "1a8bc6db-78a2-4205-8078-9cc16af1af84",
+    "id": "cd159526-f059-4208-8648-723b5f9bfdc0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oOrbSign",
+    "name": "oHeaderText2",
     "eventList": [
         {
-            "id": "13b15cfc-6e90-4fed-874d-132c973f2e3a",
+            "id": "cddca88b-5037-4342-8cc8-96dee8fa73f4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 84,
-            "eventtype": 9,
-            "m_owner": "1a8bc6db-78a2-4205-8078-9cc16af1af84"
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "cd159526-f059-4208-8648-723b5f9bfdc0"
         },
         {
-            "id": "80104f27-92a4-4865-8790-d8fc0ee64d12",
+            "id": "d0b26647-a14c-449a-a7d8-d0d80231ea3b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "fdd9c3d8-458a-4035-9e04-0330180b86d1",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "1a8bc6db-78a2-4205-8078-9cc16af1af84"
+            "eventtype": 3,
+            "m_owner": "cd159526-f059-4208-8648-723b5f9bfdc0"
+        },
+        {
+            "id": "8b61e98c-659d-4037-8916-64dd8ebeb654",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "cd159526-f059-4208-8648-723b5f9bfdc0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "81427351-0678-4895-963a-76c0a8cfb93b",
+            "id": "6593a7e7-5f35-4748-bc9f-7800919d69d0",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +62,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"Oh no im too late! Mom...? \\nMom.. Please dont leave me!.\\nIm sorry... i didnt protect you well\\n im so sorry..\"",
+            "value": "\"Deep into the forest\"",
             "varName": "text",
             "varType": 2
         }
     ],
     "solid": false,
-    "spriteId": "2295263b-8bff-4c37-bda1-a943a924ddae",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

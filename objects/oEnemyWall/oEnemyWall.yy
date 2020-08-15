@@ -1,14 +1,14 @@
 {
-    "id": "55a2bfc0-670a-47a7-8c84-09f646003e82",
+    "id": "c2f56078-2cf5-41d8-a2fd-fd03d362a0a1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oWallParent",
+    "name": "oEnemyWall",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "c2f56078-2cf5-41d8-a2fd-fd03d362a0a1",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

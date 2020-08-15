@@ -18,10 +18,10 @@ if(point_in_circle(x,y,x,y,32)) && (!instance_exists(oText))
 */
 
 
-l += 0.5;
+l += 1;
 print = string_copy(str,1,l);
 
-if(l > string_length(str)+50) && (next < array_length_1d(strings) -1)
+if(l > string_length(str)+200) && (next < array_length_1d(strings) -1)
 {
 	l = 0;
 	next++;
