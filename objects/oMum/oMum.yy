@@ -1,28 +1,28 @@
 {
-    "id": "1a8bc6db-78a2-4205-8078-9cc16af1af84",
+    "id": "8ea416b8-4dda-4563-9d2c-4d0bc7c9232a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oOrbSign",
+    "name": "oMum",
     "eventList": [
         {
-            "id": "13b15cfc-6e90-4fed-874d-132c973f2e3a",
+            "id": "363caebe-1183-42ac-b4a4-03dfcadbb278",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 84,
             "eventtype": 9,
-            "m_owner": "1a8bc6db-78a2-4205-8078-9cc16af1af84"
+            "m_owner": "8ea416b8-4dda-4563-9d2c-4d0bc7c9232a"
         },
         {
-            "id": "80104f27-92a4-4865-8790-d8fc0ee64d12",
+            "id": "40802689-0499-4338-bee7-9698a107ede2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "fdd9c3d8-458a-4035-9e04-0330180b86d1",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "1a8bc6db-78a2-4205-8078-9cc16af1af84"
+            "m_owner": "8ea416b8-4dda-4563-9d2c-4d0bc7c9232a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "81427351-0678-4895-963a-76c0a8cfb93b",
+            "id": "03728a52-bba9-46a2-b0ac-e858735719f2",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"Press Z to cut the tree\"",
+            "value": "\"Son, mum here needed \\n extra wood for cooking \\n Can you get some for me?\"",
             "varName": "text",
             "varType": 2
         }
     ],
     "solid": false,
-    "spriteId": "2295263b-8bff-4c37-bda1-a943a924ddae",
-    "visible": false
+    "spriteId": "82fddff9-371d-49a2-8f73-d1dad6554cf4",
+    "visible": true
 }
