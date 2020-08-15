@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "2afd84b7-74df-4e7b-9c2c-78424e5e5a99",
+            "Value": {
+                "id": "dab2f075-cdc1-47f0-8334-4d9b199fd331",
+                "resourcePath": "rooms\\roomDie\\roomDie.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "32a3ad61-727c-419e-9aab-fec228f82d40",
             "Value": {
                 "id": "8e74953f-57cd-406a-a5b2-e3678bb63cf7",
@@ -635,6 +643,14 @@
             "Value": {
                 "id": "9a39aca7-3e91-4267-8dfe-5f2db82e66e3",
                 "resourcePath": "objects\/oRightOrb\/oRightOrb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8fe0954e-599e-4ed7-82a1-fcaf0a0951bf",
+            "Value": {
+                "id": "2a268cf6-627f-4c1b-8298-fb5a36397252",
+                "resourcePath": "objects\\oOrbTransit\\oOrbTransit.yy",
                 "resourceType": "GMObject"
             }
         },
