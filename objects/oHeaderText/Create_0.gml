@@ -6,7 +6,8 @@ l = 0;
 next = 0;
 str = "";
 strings[0] = "Deep into the jungle...";
-
+strings[1] = "second line";
+strings[2] = "third line";
 /*
 if(point_in_circle(x,y,x,y,32)) && (!instance_exists(oText))
 {

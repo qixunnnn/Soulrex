@@ -3,9 +3,11 @@
 if(!Pmercy)
 {
 	Pmercy = true;
-	Pmercy_timer=room_speed/4;
-	Pflash = 3;
-	oStatus.playerHP -= 15;
+	Pmercy_timer= room_speed * 1;
+	Pflash = room_speed * 1;;
+	oStatus.playerHP -= 40;
+	oStatus.allowHpRegen = 0;
+	oStatus.alarm[1] = room_speed * 3;
 	sprite_index = sPlayer;
 	image_speed = 0;
 	image_index = 2;
@@ -30,7 +32,7 @@ if(!Pmercy)
 	}
 	else
 	{
-		state = PLAYERSTATE.PHIT;	
+		state = PLAYERSTATE.FREE;	
 	}
 }
 

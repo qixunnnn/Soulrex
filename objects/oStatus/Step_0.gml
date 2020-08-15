@@ -4,9 +4,9 @@ if(playerHP >= playerMaxHP)
 {
 	playerHP = playerMaxHP;
 }
-else
+else if(allowHpRegen == 1)
 {
-	playerHP = playerHP + 0.05;
+	playerHP = playerHP + 0.03;
 }
 
 if(playerE >= playerMaxE)

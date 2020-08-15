@@ -6,7 +6,9 @@ if(Pmercy_timer>0)
 else
 {
 	Pmercy = false;
+	
 }
+
 var move = key_right - key_left;  //-1 = Left | 1 = Right
 
 
