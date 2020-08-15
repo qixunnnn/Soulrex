@@ -11,6 +11,12 @@ state = PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();
 Pelement = 0;
 
+ 
+Pflash = 0;
+Pmercy=false;
+Pmercy_timer=0;
+
+
 globalvar leftOrb;
 globalvar rightOrb;
 
@@ -21,6 +27,7 @@ enum PLAYERSTATE
 {
 	FREE,
 	ATTACK_SLASH,
-	KB
+	KB,
+	PHIT,
 }
 

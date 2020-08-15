@@ -12,14 +12,12 @@ maxhp = 3;
 hp = maxhp;
 
 healthbarWidth = 100;
-healthbarHeight = 100;
-healthbar_x = (320/2) - (healthbarWidth/2)
-healthbar_y = ystart
+
 
 flash = 0;
 mercy=false;
 mercy_timer=0;
-hitfrom = 0;
+
 
 
 

@@ -1,7 +1,8 @@
-hsp = 0;
-vsp = 0;
+
 if(oStatus.playerE >= 20)
 {
+	hsp = 0;
+	vsp = 0;
 //Start of the attack
 	if(sprite_index != sPlayerC)
 	{

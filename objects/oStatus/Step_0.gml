@@ -15,5 +15,5 @@ if(playerE >= playerMaxE)
 }
 else if(allowERegen == 1)
 {
-	playerE = playerE + 0.1;	
+	playerE = playerE + 0.5;	
 }

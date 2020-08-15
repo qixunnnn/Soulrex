@@ -1,5 +1,12 @@
 //Var = 1 frame 1 loop of every step event
-
+if(Pmercy_timer>0)
+{
+	Pmercy_timer--;	
+}
+else
+{
+	Pmercy = false;
+}
 var move = key_right - key_left;  //-1 = Left | 1 = Right
 
 

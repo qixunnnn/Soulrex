@@ -5,13 +5,13 @@ if(mercy_timer>0)
 else
 {
 	mercy = false;
-	if(hp >= 0)
+	if(hp > 0)
 	{
-		state = EnemyState_FREE();
+		state = ENEMYSTATE.FREE;
 	
 	}
 	else
 	{
-		state = EnemyState_Dead();	
+		state = ENEMYSTATE.DEAD;	
 	}
 }

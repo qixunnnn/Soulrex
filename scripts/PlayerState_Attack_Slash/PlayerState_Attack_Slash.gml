@@ -1,10 +1,10 @@
-hsp = 0;
-vsp = 0;
+
 
 if(oStatus.playerE >= 5)
 {
 	//Start of the attack
-	
+	hsp = 0;
+	vsp = 0;
 	if(sprite_index != sPlayerZ)
 	{
 		sprite_index = sPlayerZ;
