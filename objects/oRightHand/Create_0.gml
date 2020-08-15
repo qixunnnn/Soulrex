@@ -13,7 +13,7 @@ maxhp = 30;
 hp = maxhp;
 
 healthbarWidth = 100;
-
+heal = false;
 
 flash = 0;
 mercy=false;
@@ -34,35 +34,45 @@ mercy_timer=0;
 //Magic = 14 (Magic + Magic)
 
 fval = oBoss.fval;
-	ran = oBoss.ran;
+ran = oBoss.ran;
 	
-	fval = floor(ran)
-	if (fval <= 1)
-	{
-		fval += 2;
-	}
-	else if(fval >= 6)
-	{
-		fval -= 2;	
-	}
-	else
-	{
-		fval +=2;
-	}
+fval = floor(ran)
+if (fval <= 1)
+{
+	fval += 2;
+}
+else if(fval >= 6)
+{
+	fval -= 2;	
+}
+else
+{
+	fval +=2;
+}
 	
-	element = oBoss.elementList[| fval];
-	elementIndi = instance_create_layer(x, y,"Element",oElementIndicator);
-	with(elementIndi){
-	owner  = other.id;
-	switch(owner.element)
-		{
-			case 0: image_index = 0; break;
-			case 2: image_index = 6; break;
-			case 4: image_index = 7; break;
-			case 6: image_index = 4; break;
-			case 8: image_index = 1; break;
-			case 10: image_index = 2; break;
-			case 14: image_index = 3; break;
-		}
+element = oBoss.elementList[| fval];
+elementIndi = instance_create_layer(x, y,"Element",oElementIndicator);
+with(elementIndi){
+owner  = other.id;
+switch(owner.element)
+	{
+		case 0: image_index = 0; break;
+		case 2: image_index = 6; break;
+		case 4: image_index = 7; break;
+		case 6: image_index = 4; break;
+		case 8: image_index = 1; break;
+		case 10: image_index = 2; break;
+		case 14: image_index = 3; break;
 	}
+}
+
+state = RHSTATE.FREE;
+
+enum RHSTATE
+{
+	FREE,
+	HIT,
+	DEAD,
+	
+}
 

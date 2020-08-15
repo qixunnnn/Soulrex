@@ -16,6 +16,7 @@ healthbarWidth = 100;
 flash = 0;
 mercy=false;
 mercy_timer=0;
+heal = false;
 
 
 //ds_list_add(elementList,0,2,4,6,8,10,14);
@@ -62,5 +63,14 @@ owner = other.id;
 		case 10: image_index = 2; break;
 		case 14: image_index = 3; break;
 	}
+}
+state = LHSTATE.FREE;
+
+enum LHSTATE
+{
+	FREE,
+	HIT,
+	DEAD,
+	
 }
 
