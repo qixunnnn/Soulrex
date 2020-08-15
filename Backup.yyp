@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "052567d0-2a93-422f-877d-3472e9e1f628",
+            "Value": {
+                "id": "5a31f850-42bd-45c4-93c6-fcd09dd7b915",
+                "resourcePath": "sprites\\sBossBG5\\sBossBG5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "07b11a0d-4851-4c6c-939e-9f794ba979a3",
             "Value": {
                 "id": "ee0c1ef4-2b95-4b93-85b1-a573015215ee",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "1a286c4f-8034-4388-bdb1-03c5e8bf6b74",
+            "Value": {
+                "id": "3c5d2ef1-1b15-430b-8ef7-3583630583f2",
+                "resourcePath": "sprites\\sBossBG3\\sBossBG3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1a8bc6db-78a2-4205-8078-9cc16af1af84",
             "Value": {
                 "id": "d3972c99-c60d-4ced-9d92-ffdcde15f27f",
@@ -148,6 +164,14 @@
                 "id": "52671328-3c18-4243-ba7b-fbe4215b7185",
                 "resourcePath": "tilesets\/tileForest3\/tileForest3.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "212288bf-0f4f-401c-84c8-3a48d5f35b35",
+            "Value": {
+                "id": "9d90d2b0-50de-4305-878e-c25c41a7d20d",
+                "resourcePath": "sprites\\sBossBG2\\sBossBG2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -316,6 +340,14 @@
                 "id": "6df0d8b6-e656-4fba-8714-b442d0ed4b6c",
                 "resourcePath": "scripts\/PlayerState_Attack_Slash\/PlayerState_Attack_Slash.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "50525c25-1be2-48af-b45d-bcc75914e618",
+            "Value": {
+                "id": "76877e95-af77-4c3e-bff7-a315da500d05",
+                "resourcePath": "objects\\oBossFire\\oBossFire.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -547,6 +579,14 @@
             "Value": {
                 "id": "a0edc70f-8473-445f-ae78-1574aee3c5a4",
                 "resourcePath": "sprites\/sWarrior\/sWarrior.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7413f54d-5bad-41da-83da-863ecf368320",
+            "Value": {
+                "id": "bb4e5315-22d3-440f-9cba-d9cc919230b5",
+                "resourcePath": "sprites\\sBossWeapon\\sBossWeapon.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -865,8 +905,8 @@
         {
             "Key": "b6b9e2ef-b305-475a-a8f9-d63cb8e58c53",
             "Value": {
-                "id": "6b49051d-688e-4e9a-9075-6a38ab379cfd",
-                "resourcePath": "rooms\/roomBoss\/roomBoss.yy",
+                "id": "bbe970cf-9706-4d11-8fec-ae247900d2f8",
+                "resourcePath": "rooms\\roomBoss\\roomBoss.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -980,6 +1020,14 @@
                 "id": "4f9c3ddc-b34a-4c67-85fb-333d3f403f0a",
                 "resourcePath": "objects\/oText\/oText.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cc11fb14-ee53-4fc5-a3b2-3a45dba435ff",
+            "Value": {
+                "id": "e5cdd66a-6cca-4702-8620-7f1559c03eca",
+                "resourcePath": "sprites\\sBossFire\\sBossFire.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1220,6 +1268,14 @@
                 "id": "c1f84626-e618-4a49-9c26-6ce3b0cc94bc",
                 "resourcePath": "sprites\/sPortal\/sPortal.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f5192ebe-3ff1-4d69-8181-a6bf7e7cc623",
+            "Value": {
+                "id": "b11e8fd0-73ed-4f2d-b425-22fdce6fe95e",
+                "resourcePath": "objects\\oBossWeapon\\oBossWeapon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
