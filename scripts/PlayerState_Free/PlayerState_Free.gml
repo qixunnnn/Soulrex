@@ -15,16 +15,16 @@ var move = key_right - key_left;  //-1 = Left | 1 = Right
 hsp = move * walksp;   //4 Pixel to left or -4 Pixel = to right
 vsp += grv;
 
-if(place_meeting(x,y+1,oWall)) && (key_jump)
+if(place_meeting(x,y+1,oWallParent)) && (key_jump)
 {
 	
     vsp = -7
 }
 
 //Horizontal Movement
-if(place_meeting(x+hsp,y,oWall))
+if(place_meeting(x+hsp,y,oWallParent))
 {
-    while(!place_meeting(x+sign(hsp),y,oWall))
+    while(!place_meeting(x+sign(hsp),y,oWallParent))
     {
         x+= sign(hsp);
     }
@@ -34,9 +34,9 @@ if(place_meeting(x+hsp,y,oWall))
 x += hsp;
 
 //Vertical Movement
-if(place_meeting(x,y+vsp,oWall))
+if(place_meeting(x,y+vsp,oWallParent))
 {
-    while(!place_meeting(x,y+sign(vsp),oWall))
+    while(!place_meeting(x,y+sign(vsp),oWallParent))
     {
         y+= sign(vsp);
     }
@@ -46,7 +46,7 @@ if(place_meeting(x,y+vsp,oWall))
 y += vsp;
 
 //Animation
-if(!place_meeting(x,y+1,oWall))
+if(!place_meeting(x,y+1,oWallParent))
 {
     sprite_index = sPlayerJ;
     image_speed = 1;

@@ -210,7 +210,7 @@
             "Key": "2afd84b7-74df-4e7b-9c2c-78424e5e5a99",
             "Value": {
                 "id": "dab2f075-cdc1-47f0-8334-4d9b199fd331",
-                "resourcePath": "rooms\\roomDie\\roomDie.yy",
+                "resourcePath": "rooms\/roomDie\/roomDie.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "55a2bfc0-670a-47a7-8c84-09f646003e82",
+            "Value": {
+                "id": "56b8c743-e72b-4146-b29c-5606e731db60",
+                "resourcePath": "objects\/oWallParent\/oWallParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5771c237-32c2-4858-9506-49fd2dd3fd29",
             "Value": {
                 "id": "e4f3d37c-f6d6-4996-8244-b1b90fcecd35",
@@ -347,6 +355,14 @@
             "Value": {
                 "id": "40814a2a-7063-4529-8997-0e275f45538c",
                 "resourcePath": "objects\/oStatus\/oStatus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5e95f6da-5de2-4166-84d9-60d57dad0591",
+            "Value": {
+                "id": "5f1d667f-1e3d-40ca-ad26-1afee0e17216",
+                "resourcePath": "objects\/oPWall\/oPWall.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -591,6 +607,14 @@
             }
         },
         {
+            "Key": "8a57ab72-06b9-4124-b1aa-4aec8e587372",
+            "Value": {
+                "id": "6ce0f800-06db-44ac-bd75-9bc9f88bb4b6",
+                "resourcePath": "sprites\/sPWall\/sPWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8a798648-e7da-482f-8931-64d475f7dd43",
             "Value": {
                 "id": "f2d46b2f-151b-47f9-8a3d-250aac444056",
@@ -650,7 +674,7 @@
             "Key": "8fe0954e-599e-4ed7-82a1-fcaf0a0951bf",
             "Value": {
                 "id": "2a268cf6-627f-4c1b-8298-fb5a36397252",
-                "resourcePath": "objects\\oOrbTransit\\oOrbTransit.yy",
+                "resourcePath": "objects\/oOrbTransit\/oOrbTransit.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -817,7 +841,7 @@
         {
             "Key": "b6b9e2ef-b305-475a-a8f9-d63cb8e58c53",
             "Value": {
-                "id": "e710c5d4-a8b9-4252-bcf9-53660a325c5f",
+                "id": "6b49051d-688e-4e9a-9075-6a38ab379cfd",
                 "resourcePath": "rooms\/roomBoss\/roomBoss.yy",
                 "resourceType": "GMRoom"
             }
