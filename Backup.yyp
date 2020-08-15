@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "12b6dc38-553a-4337-8e85-695490e5e80d",
+            "Value": {
+                "id": "b2530683-f826-45d6-a5d7-c30fdd707bef",
+                "resourcePath": "objects\\oTextPlayer\\oTextPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17fea536-4601-4292-b9be-7b7869880da8",
             "Value": {
                 "id": "2aff9678-5196-4f9f-af21-c299b44d03f0",
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "5485a16e-6868-4690-8b01-1d71099aff58",
+            "Value": {
+                "id": "cda3f3cb-eee2-465e-9fcb-7544164a26a2",
+                "resourcePath": "sprites\\sForestBG\\sForestBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5771c237-32c2-4858-9506-49fd2dd3fd29",
             "Value": {
                 "id": "e4f3d37c-f6d6-4996-8244-b1b90fcecd35",
@@ -487,6 +503,14 @@
             }
         },
         {
+            "Key": "75c501ba-aeb5-4380-8e1c-9268ec80b261",
+            "Value": {
+                "id": "ac7f1725-d3e8-4934-8d5c-13191875ea8b",
+                "resourcePath": "objects\\oInvisibleWall\\oInvisibleWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "75fb9348-d0ea-406a-a619-b242ab3f689f",
             "Value": {
                 "id": "69dc9231-7a02-4b39-90f7-811c9a3eaac0",
@@ -631,6 +655,14 @@
             }
         },
         {
+            "Key": "9778e94f-ec7f-4112-bdc9-7dd4345a8673",
+            "Value": {
+                "id": "7248c056-b36d-4363-99e5-266c449eb991",
+                "resourcePath": "sprites\\sForestBG2\\sForestBG2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "99ad4caf-f1a1-49fa-8224-af1ca678a75d",
             "Value": {
                 "id": "d610215e-cb60-4e93-9c06-003f1986722b",
@@ -652,6 +684,14 @@
                 "id": "aa7a905f-10e9-4630-b8c0-62d877136a57",
                 "resourcePath": "tilesets\/tileProp\/tileProp.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "a0315f93-d10b-4f06-811c-6ca68c6b7533",
+            "Value": {
+                "id": "41473468-31db-437f-b351-b8b5f8e57468",
+                "resourcePath": "sprites\\sInvisibleWall\\sInvisibleWall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -692,6 +732,14 @@
                 "id": "a7dca4c3-fdee-4c05-8a8c-761e2d55c05e",
                 "resourcePath": "sounds\/snAttack\/snAttack.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "accb6a99-7999-464c-9e59-43efc79a8fff",
+            "Value": {
+                "id": "47abdb20-e159-48f0-b805-bea3d80ae896",
+                "resourcePath": "objects\\oHeaderText\\oHeaderText.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -847,11 +895,27 @@
             }
         },
         {
+            "Key": "cd37a294-dbf7-43eb-a208-c4b11b08cbb1",
+            "Value": {
+                "id": "4b12ab7f-c1df-4eb9-92ad-71f900cf77ca",
+                "resourcePath": "sprites\\sForestBG1\\sForestBG1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cd422a0b-7ef2-4806-aff7-46d146169887",
             "Value": {
                 "id": "363ff2df-14bf-4bb2-9b9d-3994b36d58f2",
                 "resourcePath": "sprites\/sLHand\/sLHand.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cda26178-c74c-426c-8e8e-01bb08b1b774",
+            "Value": {
+                "id": "f54bbcf8-5422-457b-8ee5-c8d6039f8c62",
+                "resourcePath": "rooms\\roomTut2\\roomTut2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
