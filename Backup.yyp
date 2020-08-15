@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "2295263b-8bff-4c37-bda1-a943a924ddae",
+            "Value": {
+                "id": "f4063e0b-8a4c-4c0d-871a-18d43cef43cf",
+                "resourcePath": "sprites\\sSign\\sSign.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "29e4513b-2a19-46c6-9c26-dca3b9fb9980",
             "Value": {
                 "id": "c2f4ccc8-5c56-4e00-aa11-83eec42a45a3",
