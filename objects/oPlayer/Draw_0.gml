@@ -5,8 +5,13 @@ draw_self();
 if(Pflash > 0)
 {
 	Pflash--;
-	shader_set(shWhite);
-	draw_self();
-	shader_reset();
+	if(Pflash % 10 == 1)
+	{
+		shader_set(shWhite);
+		draw_self();
+		shader_reset();
+	}
+	
+	
 }
 

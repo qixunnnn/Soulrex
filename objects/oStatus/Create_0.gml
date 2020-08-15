@@ -4,6 +4,7 @@ playerMaxHP = 100;
 playerHP = 100;
 
 allowERegen = 0;
+allowHpRegen = 0;
 playerMaxE = 100;
 playerE = 100;
 
