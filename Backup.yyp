@@ -50,7 +50,7 @@
             "Key": "0ba2e8ad-34e2-4c29-96bc-776fe701d1ae",
             "Value": {
                 "id": "9a431e9c-fbf6-4648-a079-713c25c85542",
-                "resourcePath": "tilesets\\sTileForest2\\sTileForest2.yy",
+                "resourcePath": "tilesets\/sTileForest2\/sTileForest2.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -76,6 +76,14 @@
                 "id": "2aff9678-5196-4f9f-af21-c299b44d03f0",
                 "resourcePath": "objects\/oLeftOrb\/oLeftOrb.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "19eb0fb9-ec1e-4057-9184-cd1c54338a43",
+            "Value": {
+                "id": "9b6f9734-8b88-411a-b50e-1f3958523db1",
+                "resourcePath": "scripts\/TreeState_FREE\/TreeState_FREE.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -122,7 +130,7 @@
             "Key": "20c07e4b-13f6-4aa2-ade0-37c1860fc1eb",
             "Value": {
                 "id": "52671328-3c18-4243-ba7b-fbe4215b7185",
-                "resourcePath": "tilesets\\tileForest3\\tileForest3.yy",
+                "resourcePath": "tilesets\/tileForest3\/tileForest3.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -338,7 +346,7 @@
             "Key": "6234054d-6a8e-4d0b-aab0-3e04dea8b8b7",
             "Value": {
                 "id": "ba21aaa5-28bc-4fe0-a021-b08d2e01e220",
-                "resourcePath": "sprites\\sTileForestBG2\\sTileForestBG2.yy",
+                "resourcePath": "sprites\/sTileForestBG2\/sTileForestBG2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -364,6 +372,14 @@
                 "id": "b633e344-d417-4ac8-8045-a05793505e69",
                 "resourcePath": "tilesets\/tileMain\/tileMain.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "63f36a1c-6361-43fd-8808-710e8a664f2f",
+            "Value": {
+                "id": "afdc1ce1-edab-4bd4-ae8a-d0893b156ad2",
+                "resourcePath": "scripts\/TreeState_Hit\/TreeState_Hit.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -482,7 +498,7 @@
             "Key": "7bb74ea5-ed29-4fee-8aab-d4d4d0e93d44",
             "Value": {
                 "id": "f2661ac2-b74c-4d2d-8c82-2aeafc3c7e02",
-                "resourcePath": "objects\\oTree\\oTree.yy",
+                "resourcePath": "objects\/oTree\/oTree.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -554,7 +570,7 @@
             "Key": "8ea416b8-4dda-4563-9d2c-4d0bc7c9232a",
             "Value": {
                 "id": "c6cd0077-c502-4b09-af2a-cd584064b3d6",
-                "resourcePath": "objects\\oMum\\oMum.yy",
+                "resourcePath": "objects\/oMum\/oMum.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -611,6 +627,14 @@
             "Value": {
                 "id": "1348f884-ed89-423a-8fe1-ab97e9db6999",
                 "resourcePath": "scripts\/BossState_FREE\/BossState_FREE.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "99ad4caf-f1a1-49fa-8224-af1ca678a75d",
+            "Value": {
+                "id": "d610215e-cb60-4e93-9c06-003f1986722b",
+                "resourcePath": "scripts\/TreeState_Dead\/TreeState_Dead.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -914,7 +938,7 @@
             "Key": "dd81c835-9fba-4929-9b90-c0acc0d66fba",
             "Value": {
                 "id": "be59b77e-77b3-4e88-9d89-b80e89805d24",
-                "resourcePath": "sprites\\sTree\\sTree.yy",
+                "resourcePath": "sprites\/sTree\/sTree.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -946,7 +970,7 @@
             "Key": "e8394840-2883-443d-8c5a-9353032ef0b8",
             "Value": {
                 "id": "8eafe341-3ce4-43f3-a7d7-973ae2c4e057",
-                "resourcePath": "sprites\\sTileForestBG1\\sTileForestBG1.yy",
+                "resourcePath": "sprites\/sTileForestBG1\/sTileForestBG1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -978,7 +1002,7 @@
             "Key": "f7a8e3b2-e94b-48d9-8547-6edbb0e74e20",
             "Value": {
                 "id": "08ce3bb0-d0ca-4c66-8620-453847298da9",
-                "resourcePath": "tilesets\\sTileForest1\\sTileForest1.yy",
+                "resourcePath": "tilesets\/sTileForest1\/sTileForest1.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -994,7 +1018,7 @@
             "Key": "ffe2be11-e39f-44d6-813f-22ba3708d783",
             "Value": {
                 "id": "ef5ad4f1-0ccf-4083-8e90-8a4025ca2bec",
-                "resourcePath": "sprites\\sTileForestBG3\\sTileForestBG3.yy",
+                "resourcePath": "sprites\/sTileForestBG3\/sTileForestBG3.yy",
                 "resourceType": "GMSprite"
             }
         }
@@ -1006,9 +1030,12 @@
         "d6e85bb4-5a90-4e68-83fd-82a3ddaf4589",
         "75fb9348-d0ea-406a-a619-b242ab3f689f",
         "bca4e883-7644-42f8-b911-3375144fe99a",
+        "19eb0fb9-ec1e-4057-9184-cd1c54338a43",
         "926971eb-90e6-4aaf-b486-ee47523c32b3",
         "3999072f-ca01-4610-a670-fdcfe86b5f7e",
+        "99ad4caf-f1a1-49fa-8224-af1ca678a75d",
         "9a0e215c-c45d-4dff-96c0-d4d995f5b40a",
+        "63f36a1c-6361-43fd-8808-710e8a664f2f",
         "bb4fc6d0-4a5a-4052-8528-522cdaea2250",
         "228e2bcf-dcc4-4304-be17-987d55fd9ed8",
         "1db7fa39-7198-42f5-9a28-003b3c7a30aa",
