@@ -250,7 +250,7 @@
             "Key": "2af3a226-962a-48ee-b287-4c50d49fe0f8",
             "Value": {
                 "id": "d9f08f54-2ee2-4897-be99-3f9967cd103c",
-                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourcePath": "rooms\/room1\/room1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "743dc716-4070-47b1-8b05-1ff02557e990",
+            "Value": {
+                "id": "ce8f617a-dfa3-4c47-ae1e-3a621a9ed457",
+                "resourcePath": "objects\/oBossHeaderTrigger\/oBossHeaderTrigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "75c501ba-aeb5-4380-8e1c-9268ec80b261",
             "Value": {
                 "id": "ac7f1725-d3e8-4934-8d5c-13191875ea8b",
@@ -644,6 +652,14 @@
                 "id": "dd897b19-feef-4cf7-ad22-319e0a98e902",
                 "resourcePath": "shaders\/shWhite\/shWhite.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "7ebd2db3-4e85-4c5b-9d4b-f50f3c7112bf",
+            "Value": {
+                "id": "cbbf7b77-38e0-4d7e-a0c6-1fec315571c2",
+                "resourcePath": "objects\/oBossDead\/oBossDead.yy",
+                "resourceType": "GMObject"
             }
         },
         {

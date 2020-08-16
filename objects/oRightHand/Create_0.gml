@@ -9,7 +9,7 @@ walksp = -2;	//Walk Speed
 hsp = walksp;
 
 
-maxhp = 7;
+maxhp = 10;
 hp = maxhp;
 
 healthbarWidth = 100;
