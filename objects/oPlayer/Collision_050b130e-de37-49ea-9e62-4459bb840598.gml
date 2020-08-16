@@ -7,7 +7,7 @@ if(!Pmercy)
 	Pflash = room_speed * 1;;
 	oStatus.playerHP -= 40;
 	oStatus.allowHpRegen = 0;
-	oStatus.alarm[1] = room_speed * 3;
+	oStatus.alarm[1] = room_speed * 4;
 	sprite_index = sPlayer;
 	image_speed = 0;
 	image_index = 2;

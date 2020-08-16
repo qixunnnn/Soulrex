@@ -34,7 +34,7 @@
             "Key": "052567d0-2a93-422f-877d-3472e9e1f628",
             "Value": {
                 "id": "5a31f850-42bd-45c4-93c6-fcd09dd7b915",
-                "resourcePath": "sprites\\sBossBG5\\sBossBG5.yy",
+                "resourcePath": "sprites\/sBossBG5\/sBossBG5.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -114,7 +114,7 @@
             "Key": "1a286c4f-8034-4388-bdb1-03c5e8bf6b74",
             "Value": {
                 "id": "3c5d2ef1-1b15-430b-8ef7-3583630583f2",
-                "resourcePath": "sprites\\sBossBG3\\sBossBG3.yy",
+                "resourcePath": "sprites\/sBossBG3\/sBossBG3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -170,7 +170,7 @@
             "Key": "212288bf-0f4f-401c-84c8-3a48d5f35b35",
             "Value": {
                 "id": "9d90d2b0-50de-4305-878e-c25c41a7d20d",
-                "resourcePath": "sprites\\sBossBG2\\sBossBG2.yy",
+                "resourcePath": "sprites\/sBossBG2\/sBossBG2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -346,7 +346,7 @@
             "Key": "50525c25-1be2-48af-b45d-bcc75914e618",
             "Value": {
                 "id": "76877e95-af77-4c3e-bff7-a315da500d05",
-                "resourcePath": "objects\\oBossFire\\oBossFire.yy",
+                "resourcePath": "objects\/oBossFire\/oBossFire.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -586,7 +586,7 @@
             "Key": "7413f54d-5bad-41da-83da-863ecf368320",
             "Value": {
                 "id": "bb4e5315-22d3-440f-9cba-d9cc919230b5",
-                "resourcePath": "sprites\\sBossWeapon\\sBossWeapon.yy",
+                "resourcePath": "sprites\/sBossWeapon\/sBossWeapon.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -775,6 +775,14 @@
             }
         },
         {
+            "Key": "92a19957-fcc8-4a36-ae95-7555fd96da93",
+            "Value": {
+                "id": "05eb2ea1-5bad-49d1-81d3-153d1cb120e4",
+                "resourcePath": "objects\/oInvisibleWall2\/oInvisibleWall2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9778e94f-ec7f-4112-bdc9-7dd4345a8673",
             "Value": {
                 "id": "7248c056-b36d-4363-99e5-266c449eb991",
@@ -836,6 +844,14 @@
                 "id": "4eb73e30-c46c-4e6e-b752-3a67d0068ea5",
                 "resourcePath": "sprites\/sSlimeD\/sSlimeD.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a1164f21-8561-47ff-83d5-bb8300023e39",
+            "Value": {
+                "id": "852f1c8b-c84b-4f08-810a-ec28a7c1a15a",
+                "resourcePath": "objects\/oHeaderText3\/oHeaderText3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -906,7 +922,7 @@
             "Key": "b6b9e2ef-b305-475a-a8f9-d63cb8e58c53",
             "Value": {
                 "id": "bbe970cf-9706-4d11-8fec-ae247900d2f8",
-                "resourcePath": "rooms\\roomBoss\\roomBoss.yy",
+                "resourcePath": "rooms\/roomBoss\/roomBoss.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1026,7 +1042,7 @@
             "Key": "cc11fb14-ee53-4fc5-a3b2-3a45dba435ff",
             "Value": {
                 "id": "e5cdd66a-6cca-4702-8620-7f1559c03eca",
-                "resourcePath": "sprites\\sBossFire\\sBossFire.yy",
+                "resourcePath": "sprites\/sBossFire\/sBossFire.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1274,7 +1290,7 @@
             "Key": "f5192ebe-3ff1-4d69-8181-a6bf7e7cc623",
             "Value": {
                 "id": "b11e8fd0-73ed-4f2d-b425-22fdce6fe95e",
-                "resourcePath": "objects\\oBossWeapon\\oBossWeapon.yy",
+                "resourcePath": "objects\/oBossWeapon\/oBossWeapon.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1311,7 +1327,6 @@
         "75fb9348-d0ea-406a-a619-b242ab3f689f",
         "bca4e883-7644-42f8-b911-3375144fe99a",
         "19eb0fb9-ec1e-4057-9184-cd1c54338a43",
-        "926971eb-90e6-4aaf-b486-ee47523c32b3",
         "3999072f-ca01-4610-a670-fdcfe86b5f7e",
         "99ad4caf-f1a1-49fa-8224-af1ca678a75d",
         "9a0e215c-c45d-4dff-96c0-d4d995f5b40a",
@@ -1320,6 +1335,7 @@
         "228e2bcf-dcc4-4304-be17-987d55fd9ed8",
         "1db7fa39-7198-42f5-9a28-003b3c7a30aa",
         "5fcbd297-8854-4ef4-872d-d5eb7aa19555",
+        "926971eb-90e6-4aaf-b486-ee47523c32b3",
         "8f41fba9-aef5-4196-8cd3-6ce2d237d9ba",
         "d1fa2b8e-eb84-4a12-988a-e3f2f9d63913",
         "6344e53c-9ba2-4aff-b737-88435c0b9f21",

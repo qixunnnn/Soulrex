@@ -62,6 +62,7 @@ with(elementIndi){
 		case 8: image_index = 1; break;
 		case 10: image_index = 2; break;
 		case 14: image_index = 3; break;
+		case 20: image_index = 9; break;
 	}
 }
 

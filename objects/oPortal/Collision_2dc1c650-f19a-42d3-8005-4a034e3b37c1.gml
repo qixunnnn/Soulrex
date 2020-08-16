@@ -1,7 +1,8 @@
 /// @description Move to the next room
 // You can write your code in this editor
-
-with(oPlayer)
+if(allowPortal == 0)
+{
+	with(oPlayer)
 {
 	if(hascontrol)
 	{
@@ -10,3 +11,5 @@ with(oPlayer)
 		SlideTransition(TRANS_MODE.GOTO,other.target);
 	}
 }
+}
+

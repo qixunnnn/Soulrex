@@ -22,7 +22,7 @@ if (!mercy)
 			//heal when wrong element hit on hands
 			if(hp <= (maxhp - 3))
 			{
-				hp += 3;
+				hp += 2;
 			}
 		}
 	}
