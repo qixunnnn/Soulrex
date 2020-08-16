@@ -1,1 +1,1 @@
-target = roomBoss;
+target = room1;
