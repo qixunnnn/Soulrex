@@ -1031,6 +1031,14 @@
             }
         },
         {
+            "Key": "beed89b1-4e29-41fa-8cf7-ff5406de7d0b",
+            "Value": {
+                "id": "4f8c6f3d-6a42-4541-93da-f203ffa3f4ea",
+                "resourcePath": "objects\/oBossHeader\/oBossHeader.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c03cc9f4-9b13-4bb1-be8f-dc5dfa3184ad",
             "Value": {
                 "id": "9ee38f92-a53d-473e-bb4d-50d01b852a9b",
@@ -1212,6 +1220,14 @@
                 "id": "31995035-14fc-4d56-8314-a0e0fcfc7e54",
                 "resourcePath": "tilesets\/tileFloorOutline\/tileFloorOutline.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "d864df0e-9f06-4a9a-8648-d29c0e816ddf",
+            "Value": {
+                "id": "af54a471-a26a-448e-8ed6-c550565f55e2",
+                "resourcePath": "views\/d864df0e-9f06-4a9a-8648-d29c0e816ddf.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

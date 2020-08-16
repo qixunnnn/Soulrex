@@ -10,7 +10,15 @@ if(heal)
 {
 	if(hp <= maxhp)
 	{
-		hp += 0.05	
+		hp += 1
+		if(instance_exists(oRightHand))
+		{
+			if(oRightHand.hp <= maxhp)
+			{
+				oRightHand.hp += 1	
+			}
+			
+		}
 	}
 	
 }

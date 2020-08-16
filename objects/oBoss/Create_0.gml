@@ -1,11 +1,11 @@
 vsp = 0;	//Vertical Speped
 	//Horizontal speed
 grv = 0.3;	//Gravity
-walksp = -0.5;	//Walk Speed
+walksp = -1.5;	//Walk Speed
 hsp = walksp;
 
 
-maxhp = 30;
+maxhp = 20;
 hp = maxhp;
 
 healthbarWidth = 100;
@@ -14,7 +14,7 @@ healthbarWidth = 100;
 flash = 0;
 mercy=false;
 mercy_timer=0;
-
+element_time = -1;
 elementList = ds_list_create();
 var index = 0;
 val = 0;

@@ -2,14 +2,16 @@ if(object_index == 16 )
 {
 	if(!instance_exists(oRightHand))
 	{
-		oBoss.hsp *= 2;	
+		oBoss.hsp *= 1.2;	
+		oBoss.element_time = room_speed * 10;
 	}
 }
 if(object_index == 17 )
 {
 	if(!instance_exists(oLeftHand))
 	{
-		oBoss.hsp *= 2;	
+		oBoss.hsp *= 1.2;	
+		oBoss.element_time = room_speed * 10
 	}
 }
 with(elementIndi) instance_destroy();

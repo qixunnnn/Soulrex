@@ -7,6 +7,7 @@ if(object_index == 15)
 	if(instance_exists(oLeftHand) or (instance_exists(oRightHand)))
 	{
 		_damage = 0;	
+		
 	}
 		
 }
@@ -126,7 +127,7 @@ if (!mercy)
 			if((object_index == 17) || (object_index == 16))
 			{
 				
-				alarm[0] = room_speed * 10;
+				alarm[0] = room_speed * 15;
 				heal = false;
 			}
 			hitNow = true;
