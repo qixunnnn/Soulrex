@@ -5,6 +5,7 @@
 w = display_get_gui_width();
 h = display_get_gui_height();
 h_half = h * 0.5;
+//checkpoint = global.checkpointR;
 
 //Turning set of order to english readibility
 //Enum cannot be chance

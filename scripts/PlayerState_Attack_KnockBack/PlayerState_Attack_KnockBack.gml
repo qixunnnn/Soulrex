@@ -26,7 +26,7 @@ if(oStatus.playerE >= 20)
 	//use attack hitbox & check for hits
 	mask_index = sPlayerC_HB
 	var hitByAttackNow = ds_list_create();
-	var hits = instance_place_list(x,y,oEnemy,hitByAttackNow,false);
+	var hits = instance_place_list(x,y,EnemyParents,hitByAttackNow,false);
 	if(hits > 0)
 	{
 		for (var i =0; i < hits; i++)

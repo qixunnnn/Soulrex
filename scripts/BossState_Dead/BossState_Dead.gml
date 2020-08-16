@@ -14,3 +14,4 @@ if(object_index == 17 )
 }
 with(elementIndi) instance_destroy();
 instance_change(oDead,true);
+//instance_destroy();

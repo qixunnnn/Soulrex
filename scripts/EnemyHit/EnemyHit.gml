@@ -53,22 +53,35 @@ if (!mercy)
 				}
 				alarm[0] = 10;
 			}
-			if(object_index == 15)
+			
+			if((object_index == 15) or (object_index == 16) or (object_index == 17))
 			{
-				sprite_index = sBossR;
-				image_speed = 0;
-				image_index = 2;
 				diff = oPlayer.x - x;
 				if((diff > 0 && hsp < 0) || (diff < 0 && hsp > 0))
 				{
-					hsp = (hsp * 3);
+					hsp = -(hsp);
 				}
 				else
 				{
-					hsp = -(hsp * 3);
+					hsp = hsp;
 				}
-				alarm[0] = 10;
 			}
+			else
+			{
+				diff = oPlayer.x - x;
+				if((diff > 0 && hsp < 0) || (diff < 0 && hsp > 0))
+				{
+					hsp = (hsp);
+				}
+				else
+				{
+					hsp = -(hsp);
+				}
+				alarm[1] = 10;
+			}
+			}
+		
+			
 			
 				
 			

@@ -17,6 +17,10 @@ Pmercy=false;
 Pmercy_timer=0;
 
 
+
+
+
+
 globalvar leftOrb;
 globalvar rightOrb;
 
